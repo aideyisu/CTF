@@ -1,0 +1,11 @@
+在日常ctf水题中，经常会要求我们通过哪里哪里登陆。这个时候我们仅需使用 Referer 进报文的篡改就行了
+
+例如：
+
+题目
+are you from google?
+
+报文中加入
+Referer:https://www.google.com
+即可得到
+flag{bug-ku_ai_admin}
